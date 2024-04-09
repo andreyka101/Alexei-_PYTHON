@@ -43,7 +43,3 @@
 # if(num == 6 and (num2 == 5 or num3 > 6)):
 #     print("ok-ok-ok=ok-ok-ok")
     
-
-
-if(5 == 5 ^ 3 == 3):
-    print("ok")
