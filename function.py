@@ -1,4 +1,4 @@
-# ----
+#LINK - пример 1
 # def fun():
 #     print("hi function")
 
@@ -7,7 +7,7 @@
 
 
 
-# ----
+#LINK - пример 2
 # def fun():
 #     sd = 56
 #     return sd
@@ -16,7 +16,7 @@
 
 
 
-# ----
+#LINK - пример 3
 # def fun(num  , dd , uu = 8):
 
 #     num += dd + uu
@@ -27,7 +27,7 @@
 
 
 
-# ----
+#LINK - пример 4
 # def fun(num  , dd , uu = 8):
 
 #     num += dd + uu
@@ -38,7 +38,7 @@
 
 
 
-# ----
+#LINK - пример 5
 # j = 7
 # def fun(num):
 #     return num + j
@@ -49,7 +49,7 @@
 
 
 
-# ----
+#LINK - пример 6
 j = 7
 def fun():
     j = 9
@@ -61,3 +61,5 @@ def fun():
 # print(num)
 pip = fun()
 # print(pip)
+
+#ANCHOR - дз - https://pythonworld.ru/osnovy/tasks.html
