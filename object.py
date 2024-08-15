@@ -1,15 +1,16 @@
 # *LINK - пример 1
 # obj = {
-#     'uu':"pupupu",
+#     "uu":"pupupu",
 #     '5':"five",
 #     2:"two",
-#     "qwe": 13,
+#     'qwe': 13,
 # }
 # print(obj)
 
 
 
-# *LINK - пример 2
+# # *LINK - пример 2
+# arr = [13,"pupupu","five","two"]
 # obj = {
 #     0: 13,
 #     1:"pupupu",
@@ -17,19 +18,32 @@
 #     3:"two",
 # }
 # print(obj[1])
+# print(arr[1])
 
 
 
 # *LINK - пример 3
 # obj = {
-#     0: 13,
+#     0: [1,2,3,{
+#         "uu":"pupupu",
+#     '5':"five",
+#     2:"two",
+#     'qwe': 13,
+#     }],
 #     1:"pupupu",
 #     2:"five",
 #     3:"two",
 # }
+# print(obj[0][3]["uu"])
 
 
 #*ANCHOR -  методы:
+obj = {
+    "uu":"pupupu",
+    '5':"five",
+    2:"two",
+    'qwe': 13,
+}
 
 # obj.clear()
 # print(obj)
@@ -50,7 +64,14 @@
 # r = obj.keys()
 # print(r)
 # print(type(r))
+# for k in r:
+#     print(k)
 # возвращает ключи в словаре.
+
+# obj.values()
+# print(type (obj.values()))
+# print(obj.values())
+# возвращает значения в словаре.
 
 # obj.pop(key, default)
 # r = obj.pop('5')
@@ -70,6 +91,7 @@
 # Если словарь пуст, бросает исключение KeyError. Помните, что словари неупорядочены.
 
 # obj.setdefault(key, default)
+# print(obj["4"])
 # r = obj.setdefault('6')
 # print(r)
 # t = obj.setdefault('4',"000")
@@ -78,22 +100,23 @@
 # возвращает значение ключа, но если его нет, 
 # не бросает исключение, а создает ключ с значением default (по умолчанию None).
 
+# ggg = {
+#     "poi3":"uuu2",
+#     "5":"one",
+#        }
+# obj.update(ggg)
 # obj.update({"ttt":9,"poi":"uuu"})
 # print(obj)
 # обновляет словарь, добавляя пары (ключ, значение) из other. 
 # Существующие ключи перезаписываются. 
 # Возвращает None (не новый словарь!).
 
-# obj.values()
-# print(type (obj.values()))
-# print(obj.values())
-# возвращает значения в словаре.
 
 
 
 
-str_t= input("__")
-# *TODO - v1
+# str_t= input("__")
+# # *TODO - v1
 # if(str_t == "q"):
 #     print(1)
 # elif(str_t == "w"):
@@ -107,7 +130,7 @@ str_t= input("__")
 # elif(str_t == "y"):
 #     print(6)
 
-# *TODO - v2
+# # *TODO - v2
 # if_object = {
 #     "q":1,
 #     "w":2,
