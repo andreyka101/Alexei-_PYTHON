@@ -17,7 +17,7 @@
 
 
 #LINK - пример 3
-# def fun(num  , dd , uu = 8):
+# def fun(num:int , dd , uu = 8):
 
 #     num += dd + uu
 #     return num
@@ -40,26 +40,29 @@
 
 #LINK - пример 5
 # j = 7
+
 # def fun(num):
+#     j = 0
 #     return num + j
 
-# # print(num)
+
+# print(j)
 # pip = fun(100)
 # print(pip)
 
 
 
 #LINK - пример 6
-j = 7
-def fun():
-    j = 9
-    def op():
-        print(j)
-    op()
-    return j
+# j = 7
+# def fun():
+#     j = 9
+#     def op():
+#         print(j)
+#     op()
+#     return j
 
-# print(num)
-pip = fun()
+# # print(j)
+# pip = fun()
 # print(pip)
 
 #ANCHOR - дз - https://pythonworld.ru/osnovy/tasks.html

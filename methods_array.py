@@ -9,6 +9,7 @@ print(arr)
 
 
 #SECTION - insert
+# arr.insert()
 # arr.insert(2,999)
 # print(arr)
 
@@ -32,12 +33,12 @@ print(arr)
 
 
 #SECTION - copy
-arr_V2 = arr
-arr_copy = arr.copy()
-arr.pop(2)
-print("arr =", arr)
-print("arr_V2 =", arr_V2)
-print("arr_copy =", arr_copy)
+# arr_V2 = arr
+# arr_copy = arr.copy()
+# arr.pop(2)
+# print("arr =", arr)
+# print("arr_V2 =", arr_V2)
+# print("arr_copy =", arr_copy)
 
 
 #SECTION - clear
