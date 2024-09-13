@@ -1,3 +1,4 @@
+# Задание 1
 # def fun(num , answer=0)
 #     q1 = num*num-1
 #     num-=1

@@ -41,16 +41,16 @@
 
 
 # номер 3
-def fun_object_create(arr_key, arr_value, index = 0 , value_obj = {}):
-    if(len(arr_key) != len(arr_value)):
-        print("none")
-        return {}
-    if(len(arr_key) != index):
-        value_obj.update({arr_key[index]:arr_value[index]})
-        return fun_object_create(arr_key, arr_value, index +1 , value_obj)
-    else:
-        return value_obj
+# def fun_object_create(arr_key, arr_value, index = 0 , value_obj = {}):
+#     if(len(arr_key) != len(arr_value)):
+#         print("none")
+#         return {}
+#     if(len(arr_key) != index):
+#         value_obj.update({arr_key[index]:arr_value[index]})
+#         return fun_object_create(arr_key, arr_value, index +1 , value_obj)
+#     else:
+#         return value_obj
 
-arr_tit = ["ww","rr","ok"]
-arr_val = [4,9,"n"]
-print(fun_object_create(arr_tit , arr_val))
+# arr_tit = ["ww","rr","ok"]
+# arr_val = [4,9,"n"]
+# print(fun_object_create(arr_tit , arr_val))
