@@ -115,7 +115,7 @@ obj = {
 
 
 
-# str_t= input("__")
+str_t= input("__")
 # # *TODO - v1
 # if(str_t == "q"):
 #     print(1)
@@ -139,4 +139,4 @@ obj = {
 #     "t":5,
 #     "y":6,
 # }
-# print(if_object[str_t])
+# print(if_object["t"])
