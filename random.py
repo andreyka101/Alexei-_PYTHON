@@ -1,3 +1,4 @@
-import random
+#FIXME - ошибка
+from random import *
 
-print(random.randint(0, 11))
+print(randint(0, 11))
