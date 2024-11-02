@@ -43,6 +43,12 @@
 
 
 
+# выходим из двух папок
+# open_file_nX = open("../../del_file_global_2.txt" , "r")
+# print(open_file_nX.read())
+
+
+
 # переписываем файл
 # num_open_5 = open("file_a1.txt","w")
 # print(num_open_5)
