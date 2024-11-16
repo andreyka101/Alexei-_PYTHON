@@ -81,6 +81,8 @@ ar2 = [3,9,2 , 5]
 arr_answer = list(map(lambda x , y: (y if(y > x) else x) , ar1 , ar2))
 print(arr_answer)
 
+# num = 3
+# global num
 
 # номер 4
 # дан список в котором списки с числами ,каждое число списка умножить на num
