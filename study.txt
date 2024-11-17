@@ -1,0 +1,1 @@
+& C:/Users/andrej/AppData/Local/Programs/Python/Python312/python.exe c:/main_brain/programsPython/Alexei-_PYTHON/data_json.py

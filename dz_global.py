@@ -76,10 +76,10 @@
 #         ar2 = [3,9,2]
 #         ответ : [3,9,6]
 
-ar1 = [1,3,6 , 5]
-ar2 = [3,9,2 , 5]
-arr_answer = list(map(lambda x , y: (y if(y > x) else x) , ar1 , ar2))
-print(arr_answer)
+# ar1 = [1,3,6 , 5]
+# ar2 = [3,9,2 , 5]
+# arr_answer = list(map(lambda x , y: (y if(y > x) else x) , ar1 , ar2))
+# print(arr_answer)
 
 # num = 3
 # global num
@@ -87,6 +87,18 @@ print(arr_answer)
 # номер 4
 # дан список в котором списки с числами ,каждое число списка умножить на num
 # переменная num прибавляется на 1 с каждым новым списком (num изначально равен 2)
+
+
+# num = 2
+# arr_1 = [1,2,3,7,8]
+# def fun(x):
+#     global num
+#     num += 1
+#     return x * num
+# arr_answer = list(map(fun, arr_1 ))
+# print(arr_answer)
+
+#Задачи на файлы (open)
 
 
 
@@ -100,6 +112,11 @@ print(arr_answer)
 # задачи на файлы (open):
 # номер 1
 # сделать программу , которая принимает текст и сохраняет в файл 
+# text = input("Введите текст: ")
+# test_file = open("study.txt","w" , encoding = "UTF-8")
+# print(test_file)
+# test_file.write(text)
+# test_file.close
 
 
 # номер 2

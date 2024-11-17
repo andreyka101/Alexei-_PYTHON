@@ -96,16 +96,38 @@ arr_2 = [1,2,3,4,5,1]
 
 
 # # фильтрация каждого элемента списка который находится в списке
-# arr_big = [
-#     [6,3,2,6,8,2],
-#     [3,6,8,0,4,2],
-#     [1,2,3,4,5,6],
-# ]
+arr_big = [
+    [6,3,2,6,8,2],
+    [3,6,8,0,4,2],
+    [1,2,3,4,5,6],
+]
 # arr_big_2 = list(map(lambda x: list(filter(lambda y : y%2 == 0 , x)) , arr_big))
 # print(arr_big_2)
 
 
 
+# def fun_big_1(x):
+#     print(x)
+#     return x
+# arr_big = list(map(fun_big_1 , arr_big))
+# print(arr_big)
+
+
+
+# def fun_min(w):
+#     print(w)
+#     return w
+# def fun_big_2(x):
+#     print(x)
+#     return list(map(fun_min , x))
+# arr_big = list(map(fun_big_2 , arr_big))
+# print(arr_big)
+
+
+
+
+arr_big = list(map(lambda x_arr : list(map(lambda r : r + 1 , x_arr)) , arr_big))
+print(arr_big)
 
 
 
