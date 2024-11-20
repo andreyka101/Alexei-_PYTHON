@@ -14,7 +14,7 @@
 
 
 # получение класса из другого файла 
-from class_lesson_2 import Super_class_c1
+from class_les_2.lesson_9_class_les_2 import Super_class_c1
 # num_main = Super_class_c1()
 # print(num_main.num_n2)
 print(Super_class_c1().num_n1)
