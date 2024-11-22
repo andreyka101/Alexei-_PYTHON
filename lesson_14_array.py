@@ -43,7 +43,7 @@ print(arr)
 
 
 
-# .tobytes() - преобразовывает к байтам
+# .byteswap() - преобразовывает байты
 # arr.byteswap()
 # print(arr)
 
@@ -61,6 +61,40 @@ print(arr)
 # print(arr)
 
 
+
+print(arr.tobytes())
+
+
+
+# arr_2 = array("b")
+# arr_2.frombytes(bytes("\x02\x1e\x03\x01" , encoding = "UTF-8"))
+# print(arr_2)
+
+
+
+# with open("text_arr.txt" , "bw") as file:
+#     arr.tofile(file)
+
+
+
+# arr_3 = array("b")
+# with open("text_arr.txt" , "br") as file:
+#     arr_3.fromfile(file , 3)
+#     print(arr_3)
+
+
+
+
+def sort_arr(arr_loc):
+    for el in arr_loc:
+        for index in range(len(arr_loc) - 1):
+            if(arr_loc[index] > arr_loc[index+1]):
+                element = arr_loc[index]
+                arr_loc[index] = arr_loc[index+1]
+                arr_loc[index + 1] = element
+    return(arr_loc)
+
+print(sort_arr(arr))
 
 
 
