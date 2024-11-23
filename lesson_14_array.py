@@ -62,21 +62,25 @@ print(arr)
 
 
 
-print(arr.tobytes())
+# .tobytes() - преобразовывает к байтам
+# print(arr.tobytes())
 
 
 
+# frombytes(x) - делает массив из байт
 # arr_2 = array("b")
 # arr_2.frombytes(bytes("\x02\x1e\x03\x01" , encoding = "UTF-8"))
 # print(arr_2)
 
 
 
+# .tofile(f) - сохраняет массив в открытый файл (f) , файл сохраняется в байтах
 # with open("text_arr.txt" , "bw") as file:
 #     arr.tofile(file)
 
 
 
+# .fromfile(f , n) - записывает (n) чисел из (f) файла в массив , числа в файле должны быть в байтах
 # arr_3 = array("b")
 # with open("text_arr.txt" , "br") as file:
 #     arr_3.fromfile(file , 3)
@@ -85,6 +89,7 @@ print(arr.tobytes())
 
 
 
+# сортировка пузырьком
 def sort_arr(arr_loc):
     for el in arr_loc:
         for index in range(len(arr_loc) - 1):
