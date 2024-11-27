@@ -17,13 +17,13 @@
 
 
 #LINK - пример 3
-# def fun(num:int , dd , uu = 8):
+def fun(num:int , dd , uu = 8):
 
-#     num += dd + uu
-#     return num
+    num += dd + uu
+    return num
 
-# pip = fun(100 , 2 )
-# print(pip)
+pip = fun(100 , 2 )
+print(pip)
 
 
 
