@@ -1,28 +1,20 @@
-import json
+from tkinter import *
 
-answer = 0
-calculator_arr = []
-with open("calculator.json") as file:
-    calculator_arr = json.load(file)
-print("Добро пожаловать в калькулятор!")
-text = input("Введите start для начала работы калькулятора: ")
-while ( text == "start"):
-    number = int(input("Введите первое число: "))
-    number_two = int(input("Введите второе число: "))
-    action = input ("Действие: ")
-    if action == "*":
-        answer = number * number_two
-        print ("Произведение чисел = ", answer)
-    elif action == "/":
-        answer = number / number_two
-        print ("Частное чисел = ", answer)
-    elif action == "-":
-        answer = number - number_two
-        print ("Разность чисел = ", answer)
-    elif action == "+":
-        answer = number + number_two
-        print ("Сумма чисел = ", answer)
-    with open("calculator.json" , "w") as file:
-        calculator_arr.append(f"{number} {action} {number_two} = {answer}") 
-        json.dump(calculator_arr , file) 
-    text = input("Введите start для начала работы калькулятора: ")
+def click_button():
+    global click
+    click += 1
+    label_clicer.configure(text=click)
+
+click = 0
+window = Tk()
+window.title("Кликер")
+window.geometry("980x720")
+
+label_clicer = Label(window, text= click , font=("Arial Black", 18))
+label_clicer.place(x=460 , y = 250)
+
+button_counter = Button(window, text= "Нажимай", command=click_button, font=("Segoe Print", 25), fg="#3d04f7")
+button_counter.place(x=380 , y = 300)
+
+
+window.mainloop()

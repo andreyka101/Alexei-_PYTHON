@@ -5,7 +5,7 @@ from array import array
 # array(r , s)
 # r - режим массива (размер каждой ячейки в массиве , таблица в ссылке)
 # s - список (можно не писать)
-arr = array("b" , [1,2,3,7,2])
+arr = array("b" , [1,2,3,7,5,2])
 print(arr)
 print(arr[0])
 arr[1] = 30
@@ -91,8 +91,10 @@ print(arr)
 
 # сортировка пузырьком
 def sort_arr(arr_loc):
+    arr_mini_1 = array(arr_loc.typecode)
+    arr_mini_2 = array(arr_loc.typecode)
     for el in arr_loc:
-        for index in range(len(arr_loc) - 1):
+        for index in range(len(arr_loc)//2 - 1):
             if(arr_loc[index] > arr_loc[index+1]):
                 element = arr_loc[index]
                 arr_loc[index] = arr_loc[index+1]
