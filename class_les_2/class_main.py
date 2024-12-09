@@ -4,6 +4,10 @@
 # print(num_int_n2, num_int_n1,  num_int_n3)
 # print(num_int_n1)
 
+import file_global_number
+print(file_global_number.num_int_n2)
+
+
 
 
 # получение функций из другого файла 
