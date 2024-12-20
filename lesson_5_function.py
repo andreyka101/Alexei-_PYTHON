@@ -22,7 +22,7 @@ def fun(num:int , dd , uu = 8):
     num += dd + uu
     return num
 
-pip = fun(100 , 2 )
+pip = fun()
 print(pip)
 
 
