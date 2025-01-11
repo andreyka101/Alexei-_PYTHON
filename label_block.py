@@ -37,6 +37,10 @@ window.bind("<Button-1>" , fun_motion)
 def fun_button3(event):
     element = event.widget
     # lab.config(text=event)
+
+
+
+    #! получаем элемент
     lab.config(text=element)
 
     print(type(element))
