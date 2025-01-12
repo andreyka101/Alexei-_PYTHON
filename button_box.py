@@ -16,6 +16,7 @@ def fun_click(event):
     print("ok")
     element = event.widget
     print(element)
+    #! получаем переменную элемента например его текст
     # lab.config(text=element["text"])
 
     global num 
