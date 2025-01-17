@@ -43,7 +43,19 @@ canV.create_rectangle(0,0,600,500 , fill = "#1bf590" , width=0)
 
 
 
+# create_oval - создать овал или круг
+# fill = цвет
+# width = толщина рамки
+# outline = цвет рамки
+# canV.create_oval(40 , 40 , 250 , 250 , fill="#e9f71f" ,width=0 , outline="#1da7e2")
 
+
+
+# create_text - создать текст
+# fill = цвет
+# font = размер и шрифт
+# text = текст
+# justify = выравнивание текста
 canV.create_text(300 , 250 , text="hello world \n2332332" , justify="center" , fill="#5600bf" , font="Arial 15")
 
 
