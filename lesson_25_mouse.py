@@ -56,11 +56,11 @@ lab.place(x=30 , y=60)
 
 
 # обработчик вращения колёсика
-# def fun_mouse_wheel(event):
-#     lab.config(text=event)
+def fun_mouse_wheel(event):
+    lab.config(text=event)
 # event.state - информация о дополнительно зажатых клавиш
-#     # lab.config(text=event.state)
-# window.bind("<MouseWheel>" , fun_mouse_wheel)
+    # lab.config(text=event.state)
+window.bind("<MouseWheel>" , fun_mouse_wheel)
 
 
 window.mainloop()
