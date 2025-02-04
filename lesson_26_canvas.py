@@ -17,6 +17,7 @@ canV.place(x=0 , y=0)
 # create_line - создать линию
 # fill = цвет
 # width = толщина линии
+# smooth = закругление углов
 canV.create_line(10 , 10 ,100 ,200 , 60 , 500 , 500 , 100, fill = "#ba0000"  , width=10 , smooth= True , stipple ="gray50")
 # canV.create_line(300 , 200 ,100 ,200 , 60 , 500 , fill = "#ba0000"  , width=10 , smooth= True)
 
