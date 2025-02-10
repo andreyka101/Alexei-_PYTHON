@@ -62,18 +62,25 @@ canV.create_oval(40 , 40 , 250 , 250 , fill="#e9f71f" ,width=0 , outline="#1da7e
 
 
 
+# create_arc - создаёт дугу
+# start = начальный угол дуги в градусах;
+# extent = размер дуги в градусах. Дуга всегда рисуется в направлении 
+# против часовой стрелки;
+# fill = цвет
+# width = толщина линии дуги
+# outline = цвет рамки
 # canV.create_arc(40 , 40 , 250 , 250 , fill="#929292" , start = 0 , extent = 360)
 
 
-
+# style ='arc' - рамка дуги
 # canV.create_arc(40 , 40 , 250 , 250 , fill="#929292" , start = 0 , extent = 160 , width = 30 , outline="#e21d1d" , style = "arc")
 
 
-
+# style ='pieslice' - дуга с углом (стоит по умолчанию)
 # canV.create_arc(40 , 40 , 250 , 250 , fill="#929292" , start = 0 , extent = 90, outline="#e21d1d" , style = "pieslice")
 
 
-
+# style ='chord' - дуга без угла
 # canV.create_arc(40 , 40 , 250 , 250 , fill="#929292" , start = 0 , extent = 90, outline="#e21d1d" , style = "chord")
 
 
