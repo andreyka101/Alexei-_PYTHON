@@ -48,7 +48,7 @@ canV.create_rectangle(0,0,600,500 , fill = "#1bf590" , width=0)
 # fill = цвет
 # width = толщина рамки
 # outline = цвет рамки
-canV.create_oval(40 , 40 , 250 , 250 , fill="#e9f71f" ,width=0 , outline="#1da7e2")
+# canV.create_oval(40 , 40 , 250 , 250 , fill="#e9f71f" ,width=0 , outline="#1da7e2")
 
 
 
@@ -57,7 +57,7 @@ canV.create_oval(40 , 40 , 250 , 250 , fill="#e9f71f" ,width=0 , outline="#1da7e
 # font = размер и шрифт
 # text = текст
 # justify = выравнивание текста
-# canV.create_text(300 , 250 , text="hello world \n2332332" , justify="center" , fill="#5600bf" , font="Arial 15")
+canV.create_text(300 , 250 , text="hello world \n2332332" , justify="center" , fill="#5600bf" , font="Arial 15")
 
 
 
@@ -69,7 +69,7 @@ canV.create_oval(40 , 40 , 250 , 250 , fill="#e9f71f" ,width=0 , outline="#1da7e
 # fill = цвет
 # width = толщина линии дуги
 # outline = цвет рамки
-# canV.create_arc(40 , 40 , 250 , 250 , fill="#929292" , start = 0 , extent = 360)
+# canV.create_arc(40 , 40 , 250 , 250 , fill="#929292" , start = 130 , extent = 160)
 
 
 # style ='arc' - рамка дуги
@@ -77,7 +77,7 @@ canV.create_oval(40 , 40 , 250 , 250 , fill="#e9f71f" ,width=0 , outline="#1da7e
 
 
 # style ='pieslice' - дуга с углом (стоит по умолчанию)
-# canV.create_arc(40 , 40 , 250 , 250 , fill="#929292" , start = 0 , extent = 90, outline="#e21d1d" , style = "pieslice")
+# canV.create_arc(40 , 40 , 250 , 250 , fill="#929292" , start = 0 , extent = 90, width = 8 , outline="#e21d1d" , style = "pieslice")
 
 
 # style ='chord' - дуга без угла
