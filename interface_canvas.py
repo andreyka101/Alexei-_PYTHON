@@ -11,6 +11,7 @@ canV.place(x=0 , y=0)
 
 
 
+# список кнопок
 arr_button = [
     {
         "x1": 100,
@@ -33,6 +34,7 @@ arr_button = [
 ]
 
 
+# рендерим кнопки и текст в них
 for i_obj in arr_button:
     # print(i_obj)
     canV.create_rectangle(i_obj["x1"],i_obj["y1"] , i_obj["x2"],i_obj["y2"], fill=i_obj["background"] , width=0)
