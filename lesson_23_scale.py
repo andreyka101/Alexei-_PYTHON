@@ -13,7 +13,7 @@ window.config(bg="#c4efef")
 def fun(value):
     lab.config(text= int(float(value)))
     # через метод get() тоже можно получить значение Scale
-    print(scale_2.get())
+    print(scale_1.get())
     lab.place(x=int(float(value)))
 
 
