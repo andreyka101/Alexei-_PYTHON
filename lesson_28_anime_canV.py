@@ -25,7 +25,7 @@ canV.create_rectangle(obj["x1"],obj["y1"] , obj["x2"],obj["y2"],width=0 , fill="
 
 
 
-
+# анимация простая
 # save_time = time.time()
 # while(save_time + 6 != time.time()):
 
@@ -42,7 +42,7 @@ canV.create_rectangle(obj["x1"],obj["y1"] , obj["x2"],obj["y2"],width=0 , fill="
 
 
 
-
+# анимация с разной скоростью
 # save_time = time.time()
 # while(save_time + 6 != time.time()):
 
@@ -59,7 +59,7 @@ canV.create_rectangle(obj["x1"],obj["y1"] , obj["x2"],obj["y2"],width=0 , fill="
 
 
 
-
+# анимация с укореняем 
 save_time = time.time()
 while(save_time + 6 != time.time()):
 
