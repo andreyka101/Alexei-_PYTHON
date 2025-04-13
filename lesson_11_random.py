@@ -2,4 +2,4 @@
 # from random import *
 
 # print(randint(0, 11))
-print("ddd")
+# print("ddd")

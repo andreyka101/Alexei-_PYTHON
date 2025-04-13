@@ -84,6 +84,9 @@ canV.create_text(300 , 250 , text="hello world \n2332332" , justify="center" , f
 # canV.create_arc(40 , 40 , 250 , 250 , fill="#929292" , start = 0 , extent = 90, outline="#e21d1d" , style = "chord")
 
 
+# photo = PhotoImage(file="dolka-arbuza-330x140.png")
+photo = PhotoImage(file="cat.png")
+canV.create_image(300 , 250 , image = photo)
 
 
 
