@@ -1,4 +1,4 @@
-st = "1234567890-=qwerty0uiop[]"
+# st = "1234567890-=qwerty0uiop[]"
 
 # получаем символ 
 # print(st[3])
@@ -19,7 +19,7 @@ st = "1234567890-=qwerty0uiop[]"
 # print(st[0:len(st)-2])
 
 # получаем каждый 4 символ начиная со 2 индекса
-print(st[2::4])
+# print(st[2::4])
 
 
 
@@ -32,13 +32,79 @@ print(st[2::4])
 
 
 # .split(s) - разделяет по строке s
-str_1 = "132223-53625-7hhfgf-ff"
+# str_1 = "132223-53625-7hhfgf-ff"
 # print(str_1.split("-"))
 
 
 # .join(x) - соединяет все строки списка x
-arr = ["123" , "456" , "789"]
+# arr = ["123" , "456" , "789"]
 # print("*".join(arr))
+
+
+
+
+
+
+
+
+
+# str_2 = "{0} hello {1} *{2}*"
+# str_2 = "{0} hello {1} *{2}*.  {0} {1}"
+# print(str_2.format("hi" , "Bob" , "121"))
+# str_2 = str_2.format("hi" , "Bob" , "121")
+# print(str_2)
+
+
+
+# str_2 = "{} hello {} *{}*"
+# str_2 = "{} hello {} *{}*.  {} {}"
+# print(str_2.format("hi" , "Bob" , "121"))
+
+
+
+# str_2 = "{abs} hello {name}"
+# print(str_2.format(abs = "hi" , name = "Bob"))
+
+
+
+str_2 = "{arr_x[0]} hello {arr_x[1]}   arr = {arr_x}"
+print(str_2.format(arr_x = [66 , "www"]))
+
+
+
+# str_2 = "{:^30} hello"
+# print(str_2.format("Bob" ))
+
+# str_2 = "{:<30} hello"
+# print(str_2.format("Bob" ))
+
+# str_2 = "{:>30} hello"
+# print(str_2.format("Bob" ))
+
+
+
+str_2 = "{:_^30} hello"
+print(str_2.format("Bob" ))
+
+str_2 = "{:_<30} hello"
+print(str_2.format("Bob" ))
+
+str_2 = "{:_>30} hello"
+print(str_2.format("Bob" ))
+
+
+
+
+str_3 = "123"
+# print(str_3.center(11 ))
+# print(str_3.ljust(11 ))
+# print(str_3.rjust(11 ))
+
+
+# print(str_3.center(11 , "_"))
+# print(str_3.ljust(11 , "_"))
+# print(str_3.rjust(11 , "_"))
+
 
 
 

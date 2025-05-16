@@ -16,17 +16,19 @@ lab.place(x=30 , y=60)
 
 def funPress(event):
     # event - получаем информацию о обработчике (клавиша)
-    # lab.config(text=event)
+    lab.config(text=event)
 
     # event.keysym - название клавиши
     # lab.config(text=event.keysym)
 
     # event.state - информация о дополнительно зажатых клавиш
-    lab.config(text=event.state)
+    # lab.config(text=event.state)
 
+    if(event.keycode == 87):
+        window.config(bg="#FFAAAA")
     if(event.keysym == "z"):
         window.config(bg="#ff3232")
-    if(event.keysym == "z" and event.state == 12):
+    if(event.keysym == "z" and event.state == 4):
         window.config(bg="#3287ff")
     
 
