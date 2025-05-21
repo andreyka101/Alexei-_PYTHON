@@ -47,60 +47,65 @@
 
 
 
-
+# с помощью метода format можно в строку по номеру вставлять разные данные 
 # str_2 = "{0} hello {1} *{2}*"
 # str_2 = "{0} hello {1} *{2}*.  {0} {1}"
-# print(str_2.format("hi" , "Bob" , "121"))
-# str_2 = str_2.format("hi" , "Bob" , "121")
+# print(str_2.format("hi" , "Bob" , 121))
+# str_2 = str_2.format("hi" , "Bob" , 121)
 # print(str_2)
 
 
 
+# если в строке номер не указывать то он присваивается автоматически 
 # str_2 = "{} hello {} *{}*"
+# ошибка потому что в format вставляет меньше значений чем требуем в строке
 # str_2 = "{} hello {} *{}*.  {} {}"
 # print(str_2.format("hi" , "Bob" , "121"))
 
 
 
+# меняем вставляем значения по названию переменной 
 # str_2 = "{abs} hello {name}"
 # print(str_2.format(abs = "hi" , name = "Bob"))
 
 
 
+# format работает со списками и словарями
 str_2 = "{arr_x[0]} hello {arr_x[1]}   arr = {arr_x}"
 print(str_2.format(arr_x = [66 , "www"]))
 
 
 
+# выравниваем вставляемый текст 
 # str_2 = "{:^30} hello"
 # print(str_2.format("Bob" ))
-
 # str_2 = "{:<30} hello"
 # print(str_2.format("Bob" ))
-
 # str_2 = "{:>30} hello"
 # print(str_2.format("Bob" ))
 
 
 
+# выравниваем вставляемый текст заполняя пустое место символом "_" 
 str_2 = "{:_^30} hello"
 print(str_2.format("Bob" ))
-
 str_2 = "{:_<30} hello"
 print(str_2.format("Bob" ))
-
 str_2 = "{:_>30} hello"
 print(str_2.format("Bob" ))
 
 
 
 
+# выравниваем весь текст
 str_3 = "123"
 # print(str_3.center(11 ))
 # print(str_3.ljust(11 ))
 # print(str_3.rjust(11 ))
 
 
+
+# выравниваем весь текст заполняя пустое место символом "_" 
 # print(str_3.center(11 , "_"))
 # print(str_3.ljust(11 , "_"))
 # print(str_3.rjust(11 , "_"))

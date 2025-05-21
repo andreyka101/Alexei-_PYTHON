@@ -28,6 +28,7 @@ window.bind("<Motion>" , fun_motion)
 
 
 
+# обработчик нажатия всех кнопок мыши
 # def fun_button_all(event):
 #     lab.config(text=event)
 #     if(event.num == 1):
@@ -84,7 +85,7 @@ lab_y = 60
 
 
 
-#LINK - обработчик нажатия лкм
+#LINK - обработчик зажатие лкм
 # def fun_button1(event):
 #     lab.config(text=event)
 # event.state - информация о дополнительно зажатых клавиш
